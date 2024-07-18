@@ -19,6 +19,8 @@ It also includes a backend that handles the logic and responses of the chatbot.
 - User-friendly web interface for interacting with the chatbot
 - Support for multiple languages and conversation contexts
 
+<video controls src="demo.mp4" title="Title"></video>
+
 ## Technologies
 
 **Front end**
@@ -30,6 +32,7 @@ It also includes a backend that handles the logic and responses of the chatbot.
 
 ## System Architecture
  ![alt text](Overall_Chatbot.png)
+
 
 
 ## Setup
@@ -54,6 +57,8 @@ Run model manually
 ```bash
 curl http://localhost:11434/api/chat -d '{"model": "phi3", "keep_alive": -1}'
 ```
+
+Finally, access the web ui via http://localhost:3005
 
 ### Webopen-UI
 ```bash
