@@ -18,8 +18,7 @@ It also includes a backend that handles the logic and responses of the chatbot.
 
 - User-friendly web interface for interacting with the chatbot
 - Support for multiple languages and conversation contexts
-
-<video controls src="demo.mp4" title="Title"></video>
+![alt text](demo.gif)
 
 ## Technologies
 
